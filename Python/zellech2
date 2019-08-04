@@ -1,0 +1,5 @@
+print("This program converts kilomiters into miles.")
+print("Please enter a number of kilomiters to be converted into miles.")
+kilo = input()
+miles = int(kilo) // 0.62
+print(str(kilo) + ' kilomiters is about ' + str(int(miles)) + ' miles.')
